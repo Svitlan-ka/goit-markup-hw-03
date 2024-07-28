@@ -28,6 +28,11 @@ button {
 address {
         font-style: normal;
 }
+
+img {
+        display: block;
+}
+
 .visually-hidden {
     margin: -1px;
     border: 0;
@@ -75,6 +80,25 @@ font-family: "Raleway", sans-serif;
 .header-logo span {
         text-transform: uppercase;
         color: #2e2f42;
+}
+
+.header-menu-list {
+        display: flex;
+        gap: 40px;
+        margin-left: 76px;
+}
+
+.header-navigation {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+}
+.header-contact-list {
+        display: flex;
+        gap: 40px;
+}
+.header-container {
+        display: flex;
 }
 
 .header-menu-link {
@@ -133,13 +157,12 @@ margin-bottom: 48px;
 }
 
 .hero {
-padding-bottom: 120px;  
+background-color: #2e2f42;
 }
 
 .hero-wrap {
 padding-top: 188px;
 padding-bottom: 188px;
-background-color: #2e2f42;
 }
 
 
@@ -151,6 +174,11 @@ letter-spacing: 0.04em;
 color: #fff;
 background: #4d5ae5;
 white-space: nowrap;
+border-radius: 4px;
+border: none;
+padding: 16px 32px;
+display: flex;
+margin: 0 auto;
 }
 
 .hero-btn:hover,
@@ -163,6 +191,7 @@ background: #404bbf;
 /**================ADVANTAGES===================*/
 
 .advantages {
+        padding-top: 120px;
         padding-bottom: 120px;
 }
 
@@ -170,9 +199,14 @@ background: #404bbf;
         color: #2e2f42;
 }
 
-.advantages-list {}
+.advantages-list {
+        display: flex;
+        gap: 24px;
+}
 
-.advantages-item {}
+.advantages-item {
+        width: calc ((100% - 3 * 24px) / 4);
+}
 
 .advantages-subtitle {
         font-weight: 500;
@@ -211,10 +245,15 @@ padding-bottom: 120px;
         margin: 0 auto;
 }
 
-.team-list {}
+.team-list {
+        display: flex;
+        gap: 24px;
+}
 
 .team-list-item {
 background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-img {
@@ -228,6 +267,8 @@ background-color: #FFFFFF;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        text-align: center;
+
 }
 
 .team-text {
@@ -236,6 +277,8 @@ background-color: #FFFFFF;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
+        text-align: center;
 }
 
 /**=============================================*/
@@ -258,9 +301,18 @@ background-color: #FFFFFF;
         margin: 0 auto;
 }
 
-.portfolio-list {}
+.portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+}
 
-.portfolio-list-item {}
+.portfolio-list-item {
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+width: 360px;
+}
 
 .portfolio-img {
         padding-bottom: 32px;
@@ -273,6 +325,7 @@ background-color: #FFFFFF;
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-bottom: 8px;
+        padding-left: 16px;
 }
 
 .portfolio-text {
@@ -281,6 +334,8 @@ background-color: #FFFFFF;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
+        padding-left: 16px;
 }
 
 /**=============================================*/
