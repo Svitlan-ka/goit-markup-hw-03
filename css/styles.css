@@ -65,6 +65,7 @@ img {
 .header {
         padding-top: 25.5px;
         padding-bottom: 25.5px;
+        border-bottom: 1px solid #e7e9fc
 }
 
 .header-logo {
@@ -75,6 +76,7 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px
 }
 
 .header-logo span {
@@ -85,7 +87,6 @@ font-family: "Raleway", sans-serif;
 .header-menu-list {
         display: flex;
         gap: 40px;
-        margin-left: 76px;
 }
 
 .header-navigation {
@@ -99,6 +100,7 @@ font-family: "Raleway", sans-serif;
 }
 .header-container {
         display: flex;
+        padding: 24px 0
 }
 
 .header-menu-link {
