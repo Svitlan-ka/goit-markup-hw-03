@@ -88,15 +88,11 @@ font-family: "Raleway", sans-serif;
         gap: 40px;
 }
 
-.header-contact-item {
-padding: 24px 0;
-}
+.header-menu-list {}
 
-.header-menu-list {
-padding: 24px 0;
+.header-menu-item {
+        padding: 24px 0;
 }
-
-.header-menu-item {}
 
 .header-navigation {
         display: flex;
@@ -120,6 +116,7 @@ padding: 24px 0;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -143,6 +140,9 @@ padding: 24px 0;
         font-style: normal;
 }
 
+.header-contact-item {
+        padding: 24px 0;
+}
 
  .header-contact-link:hover,
  .header-contact-link:focus {
