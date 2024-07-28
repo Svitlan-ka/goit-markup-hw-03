@@ -46,8 +46,7 @@ img {
 .container {
         max-width: 1158px;
         margin: 0 auto;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px
 }
 
 .title {
@@ -97,10 +96,10 @@ font-family: "Raleway", sans-serif;
 .header-contact-list {
         display: flex;
         gap: 40px;
+        padding: 24px 0;
 }
 .header-container {
         display: flex;
-        padding: 24px 0
 }
 
 .header-menu-link {
@@ -160,13 +159,9 @@ margin-bottom: 48px;
 
 .hero {
 background-color: #2e2f42;
-}
-
-.hero-wrap {
 padding-top: 188px;
 padding-bottom: 188px;
 }
-
 
 .hero-btn {
 font-weight: 500;
@@ -181,6 +176,9 @@ border: none;
 padding: 16px 32px;
 display: flex;
 margin: 0 auto;
+min-width: 169px;
+height: 56px;
+cursor: pointer;
 }
 
 .hero-btn:hover,
